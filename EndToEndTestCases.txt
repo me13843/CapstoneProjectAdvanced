@@ -1,0 +1,23 @@
+1.Verify Title of the SauceDemo Portal
+
+	Precondition: Application URL is accessible.
+	Steps: Launch the URL and assert the page title.
+	Expected: Title should match "Swag Labs".
+
+2.Verify Login Functionality
+
+	Precondition: User credentials (standard_user, secret_sauce) are valid.
+	Steps: Enter credentials and click login.
+	Expected: Login is successful, and user lands on the inventory page.
+
+3.Add Items to Cart
+
+	Precondition: User is logged in.
+	Steps: Add multiple items from the inventory to the cart.
+	Expected: Cart count updates correctly.
+
+4.Checkout and Verify Confirmation Message
+
+	Precondition: Items are added to the cart.
+	Steps: Proceed to checkout, enter details, and verify confirmation message.
+	Expected: Message should be "THANK YOU FOR YOUR ORDER".

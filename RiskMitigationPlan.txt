@@ -1,0 +1,6 @@
+Risk Mitigation Plan
+	1.URL Inaccessibility: Ensure the base URL is configurable and retries are implemented for launch.
+	2.Login Failure: Add validations for failed login attempts.
+	3.Page Load Issues: Implement waits to handle dynamic page loads.
+	4.Data Errors: Validate test data using @DataProvider before execution.
+	5.CICD Failures: Configure retries in Jenkins and alert notifications.
